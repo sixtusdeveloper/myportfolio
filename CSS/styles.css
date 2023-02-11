@@ -578,6 +578,43 @@ h3.my-profession {
   box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
 }
 
+.resume-container {
+  width: 100%;
+  background: aliceblue;
+}
+.resume-container .resume-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.resume-wrapper .resume-col {
+  background: #ffff;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  border: 1px solid #b4becb;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.resume-wrapper .resume-col p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #333;
+  padding: 1rem 0;
+}
+
 .more-about-me {
   margin-top: 1.5rem;
 }
