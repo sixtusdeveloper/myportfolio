@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background: linear-gradient(rgba(15, 15, 35, 0.6), rgba(15, 15, 35, 0.6)),
+    url('../images/project-12.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.await-content {
+  position: relative;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.await-content .await-msg {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.await-msg h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.await-msg p {
+  color: aliceblue;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.await-msg button {
+  text-decoration: none;
+  position: absolute;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  width: 9em;
+  cursor: pointer;
+  height: 3em;
+  line-height: 2em;
+  margin: 1rem auto;
+  text-align: center;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.await-msg button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.await-msg button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.await-msg button:hover::before {
+  filter: blur(20px);
+}
+
+.await-msg button:active {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
