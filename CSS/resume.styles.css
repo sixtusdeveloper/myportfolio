@@ -56,10 +56,10 @@ body {
 
 .resume-col i.fas {
   position: absolute;
-  top: 25px;
+  top: 15px;
   left: 15px;
   color: #555;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 .resume-wrapper .resume-col p {
