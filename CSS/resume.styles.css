@@ -50,6 +50,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 70%;
+  margin-top: 8rem;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
