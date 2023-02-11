@@ -49,11 +49,11 @@ body {
 .resume-container .resume-wrapper {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   position: relative;
   flex-wrap: wrap;
 }
