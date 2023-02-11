@@ -67,10 +67,8 @@ body {
   font-size: 14px;
   font-family: inherit;
   color: #fff;
-  width: 9em;
+  padding: 12px 22px;
   cursor: pointer;
-  height: 3em;
-  line-height: 2em;
   margin: 1rem auto;
   text-align: center;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
