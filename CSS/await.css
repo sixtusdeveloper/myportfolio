@@ -18,7 +18,11 @@ body {
 }
 
 .container {
-  background: linear-gradient(rgba(15, 15, 35, 0.6), rgba(15, 15, 35, 0.6)),
+  background: linear-gradient(
+      to left,
+      rgba(7, 7, 47, 0.6),
+      rgba(10, 10, 42, 0.675)
+    ),
     url('../images/project-12.jpg');
   background-size: cover;
   background-position: center;
@@ -32,12 +36,13 @@ body {
   position: relative;
   width: 100%;
   margin: 2rem auto;
+  padding-top: 8rem;
 }
 
 .await-content .await-msg {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -45,7 +50,7 @@ body {
 
 .await-msg h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .await-msg p {
