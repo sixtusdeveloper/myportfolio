@@ -23,7 +23,8 @@ body {
       rgba(7, 7, 47, 0.6),
       rgba(10, 10, 42, 0.675)
     ),
-    url('../images/project-12.jpg');
+    rgba(15, 10, 42, 0.675),
+    rgba(13, 12, 42, 0.675) url('../images/project-12.jpg');
   background-size: cover;
   min-height: 100vh;
   background-position: center;
