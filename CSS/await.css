@@ -119,3 +119,21 @@ body {
 .await-msg button:active {
   background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
 }
+
+/*=========================== FOR SMALLER SCREEN DEVICE ============================*/
+@media only screen and (max-width: 989px) {
+  .await-content .await-msg {
+    width: 80%;
+  }
+}
+/*=========================== FOR SMALLER SCREEN DEVICE ============================*/
+@media only screen and (max-width: 689px) {
+  .await-content .await-msg {
+    width: 100%;
+  }
+
+  .await-msg h1 {
+    color: #fff;
+    font-size: 2.2rem;
+  }
+}
