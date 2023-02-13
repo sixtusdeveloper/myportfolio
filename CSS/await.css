@@ -30,10 +30,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-
 }
 
 .await-content {
+  display: flex;
   position: relative;
   width: 100%;
   margin: 2rem auto;
