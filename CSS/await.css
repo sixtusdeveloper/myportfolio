@@ -63,12 +63,11 @@ body {
 
 .await-msg button {
   text-decoration: none;
-  position: absolute;
+  position: relative;
   border: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 18px;
-  font-family: inherit;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
