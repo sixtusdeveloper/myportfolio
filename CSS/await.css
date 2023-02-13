@@ -19,9 +19,9 @@ body {
 
 .container {
   background: linear-gradient(
-      to left,
       rgba(7, 7, 47, 0.6),
-      rgba(10, 10, 42, 0.675) rgba(15, 10, 42, 0.675),
+      rgba(10, 10, 42, 0.675),
+      rgba(15, 10, 42, 0.675),
       rgba(13, 12, 42, 0.675)
     ),
     url('../images/project-12.jpg');
