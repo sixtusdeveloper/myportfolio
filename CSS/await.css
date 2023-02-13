@@ -67,8 +67,11 @@ body {
   border: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   padding: 12px 28px;
   cursor: pointer;
