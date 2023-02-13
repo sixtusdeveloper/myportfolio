@@ -130,6 +130,7 @@ body {
 @media only screen and (max-width: 689px) {
   .await-content .await-msg {
     width: 100%;
+    padding: 1rem;
   }
 
   .await-msg h1 {
