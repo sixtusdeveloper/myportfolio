@@ -104,6 +104,6 @@ body {
 /*============================= FOR SMALLER SCREEN SIZES ============================*/
 @media only screen and (max-width: 689px) {
   .resume-container {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 }
