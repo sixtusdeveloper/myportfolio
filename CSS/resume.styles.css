@@ -100,3 +100,10 @@ body {
 .cssbuttons-io-button:active {
   box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
 }
+
+/*============================= FOR SMALLER SCREEN SIZES ============================*/
+@media only screen and (max-width: 689px) {
+  .resume-container {
+    padding: 3rem 0;
+  }
+}
