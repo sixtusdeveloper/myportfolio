@@ -1414,6 +1414,14 @@ footer.footer {
   .center {
     max-width: 100%;
   }
+
+  .home-info p {
+    font-size: 14px;
+  }
+
+  .footer .copyright {
+    font-size: 14px;
+  }
 }
 
 /* Loader style */
