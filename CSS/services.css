@@ -129,7 +129,7 @@ button span {
 }
 @media only screen and (max-width: 498px) {
   section {
-    width: 98%;
+    width: 96%;
     padding: 1rem;
   }
 }
