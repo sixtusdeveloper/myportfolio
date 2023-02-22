@@ -26,7 +26,7 @@ section {
   margin: 4rem auto;
   border: 1px solid #b4becb;
   border-radius: 5px;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .flex-row {
@@ -110,5 +110,6 @@ button:hover span {
 button span {
   color: #03045e;
   font-size: 18px;
+  padding: 0 22px;
   transition: all 0.3s ease-in;
 }
