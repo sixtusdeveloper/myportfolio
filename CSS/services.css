@@ -112,3 +112,24 @@ button span {
   font-size: 18px;
   transition: all 0.3s ease-in;
 }
+
+/*==============================
+ For smaller screen sizes 
+ ============================*/
+@media only screen and (max-width: 898px) {
+  section {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  section {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 498px) {
+  section {
+    width: 98%;
+    padding: 1rem;
+  }
+}
