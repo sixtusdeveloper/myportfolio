@@ -1,3 +1,4 @@
+/*=============================== Replacement ==================================*/
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:wght@300;400&family=Nunito:wght@300;400&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@200;300;400;500&display=swap');
 
 :root {
@@ -175,8 +176,8 @@ ul {
 }
 
 .padd-15 {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .padd-15.my-1A {
   padding-top: 3rem;
