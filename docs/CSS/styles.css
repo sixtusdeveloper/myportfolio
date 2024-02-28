@@ -1067,7 +1067,7 @@ h3.my-profession {
 
 .img-layer .form-image {
   display: block;
-  width: 100%;
+  width: 40%;
   position: relative;
   border: 0.5px solid var(--img-border-900);
   border-radius: 10px;
