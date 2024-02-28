@@ -1061,13 +1061,14 @@ h3.my-profession {
 .img-container .img-layer {
   position: relative;
   overflow: hidden;
+  width: 40%;
   border: none;
   border-radius: 10px;
 }
 
 .img-layer .form-image {
   display: block;
-  width: 40%;
+  width: 100%;
   position: relative;
   border: 0.5px solid var(--img-border-900);
   border-radius: 10px;
