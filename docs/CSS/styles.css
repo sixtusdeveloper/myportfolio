@@ -1061,7 +1061,7 @@ h3.my-profession {
 .img-container .img-layer {
   position: relative;
   overflow: hidden;
-  width: 40%;
+  /* width: 40%; */
   border: none;
   border-radius: 10px;
 }
